@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Piece Survey</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+
+  <body>
+
+    <div class="survey">
+
+      <h1 id="title">Cool One Piece Survey</h1>
+      <p id="description">How much do you love One Piece?</p>
+      <form id="survey-form" method="post">
+        
+        <fieldset>
+          <legend>About You</legend>
+          <label id="name-label" for="name">Name:<input id="name" name="name" type="text" placeholder="Enter your name" required /></label>
+          <label id="email-label" for="email">E-mail:<input id="email" name="email" type="email" placeholder="Enter your email" required /></label>
+          <label id="number-label" for="number">How old are you?<input id="number" name="number" type="number" min="10" max="100" placeholder="Your age" /></label>
+        </fieldset>
+
+        <fieldset class="episodes">
+          <legend>Your One Piece History</legend>
+          <label for="dropdown">How many episodes have you seen so far?
+            <br>
+            <select id="dropdown" name="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">0 - 199 episodes</option>
+              <option value="2">200 - 399 episodes</option>
+              <option value="3">400 - 599 episodes</option>
+              <option value="4">600 - 799 episodes</option>
+              <option value="5">800 - 999 episodes</option>
+              <option value="6">1000+ episodes</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label class="question">Do you watch <em>One Pace</em> (the abbreviated version) or all the episodes in full?</label>
+          <label for="onepace"><input id="onepace" value="onepace" name="howtowatch" type="radio" class="radio" /> One Pace, I have no patience.</label>
+          <label for="full"><input id="full" value="full" name="howtowatch" type="radio" class="radio" checked/> I watch in full like a champ!</label>
+        </fieldset>
+
+        <fieldset>
+          <label class="question favs">Who are your favorite characters?</label>
+          <div class="checks">
+          <span>
+          <label for="luffy"><input id="luffy" type="checkbox" name="character" value="luffy" class="inline" checked />Luffy</label>
+          <label for="zoro"><input id="zoro" type="checkbox" name="character" value="zoro" class="inline" />Roronoa Zoro</label>
+          <label for="nami"><input id="nami" type="checkbox" name="character" value="nami" class="inline" />Nami</label>
+          <label for="usopp"><input id="usopp" type="checkbox" name="character" value="usopp" class="inline" />Usopp</label>
+          </span>
+          <span>
+          <div>
+          <label for="chopper"><input id="chopper" type="checkbox" name="character" value="chopper" class="inline" />Chopper</label>
+          <label for="sanji"><input id="sanji" type="checkbox" name="character" value="sanji" class="inline" />Sanji</label>
+          <label for="robin"><input id="robin" type="checkbox" name="character" value="robin" class="inline" />Nico Robin</label>
+          <label for="shanks"><input id="shanks" type="checkbox" name="character" value="shanks" class="inline" />Shanks</label>
+          </div>
+          </span>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <label class="question">Please tell us what you love most about One Piece:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I love One Piece SO much because..."></textarea>
+          </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+
+      </form>
+
+    </div>
+
+  </body>
+
+</html>

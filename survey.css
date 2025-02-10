@@ -1,0 +1,136 @@
+body {
+    background-image: linear-gradient(115deg, rgb(100,100,200,0.4), rgb(50,50,100,0.5)), url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d985cc2b-ae04-4a16-aef4-01e2b7e8a659/dhabah4-8c23b601-7747-46da-8f02-fd4bb8a9029f.jpg/v1/fill/w_1097,h_728,q_70,strp/wallpapersden_com_one_piece_hd_luffy_cool_art_2560_by_norda3752i_dhabah4-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODUwIiwicGF0aCI6IlwvZlwvZDk4NWNjMmItYWUwNC00YTE2LWFlZjQtMDFlMmI3ZThhNjU5XC9kaGFiYWg0LThjMjNiNjAxLTc3NDctNDZkYS04ZjAyLWZkNGJiOGE5MDI5Zi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.PEqrYUNnCz8gXj6ZEwYFjpZZOjaZCGR8VmHjsTAc0GQ");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px 0 30px 0;
+}
+  
+.survey {
+    background-color: rgb(20,5,70);
+    color: rgb(220,220,255);
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+    box-shadow: 0 0 20px 0 rgb(180, 150, 255);
+    border-radius: 8px;
+    opacity:0.95;
+    
+}
+  
+h1, p {
+    text-align: center;
+    margin: 1em auto;
+}
+  
+h1 {
+    margin: 0;
+    text-shadow: 0 0 5px rgb(180, 150, 255);
+    font-family: Verdana;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+  
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+  
+fieldset {
+    border: none;
+    border-top: 2px groove rgb(30,20,80);
+    font-family: Tahoma;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+  
+input, 
+textarea, 
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+    
+input, 
+textarea {
+    background-color: rgb(20,10,50);
+    border: 1px solid rgb(30,15,75);
+    color: rgb(220,220,255);
+}
+  
+legend{
+    text-align: center;
+}
+  
+::placeholder {
+    color: rgb(120,100,180);
+}
+  
+select, 
+select option {
+    color: rgb(20,10,50);
+    background-color: rgb(220,220,255);
+    max-width: 250px;
+    text-align: center;
+}
+  
+.radio, 
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+  
+.question{
+    padding-top: 20px;    
+}
+
+.episodes{
+    border: none;
+    border-top: 2px groove rgb(30,20,80);
+    font-family: Tahoma;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+} 
+  
+input[type="submit"] {
+    display: block;
+    width: 25%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: rgb(30,20,80);
+    border-color: rgb(220,220,255);
+    min-width: 200px;
+}
+  
+input[type="submit"]:hover {
+    display: block;
+    width: 25%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: rgb(50,30,140);
+    border-color: rgb(150,150,200);
+    min-width: 200px;
+    box-shadow: 0 0 6px 0 rgb(180, 150, 255);
+}
+
+.checks {
+    margin: 0 11% 0 11%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.favs {
+    text-align: center;
+}
